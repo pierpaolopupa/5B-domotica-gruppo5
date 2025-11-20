@@ -10,8 +10,12 @@ public class SensoreContatto extends Sensore {
         this.zona = zona;
     }
 
-    public boolean isValore() { return valore; }
-    public String getZona() { return zona; }
+    public boolean isValore() { 
+    	return valore;
+    	}
+    public String getZona() {
+    	return zona; 
+    	}
 
     @Override
     public String toString() {
